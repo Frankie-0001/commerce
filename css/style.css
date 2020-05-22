@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 270px;
+}
+
+header,
+.main-nav {
+  display: flex;
+}
+
+.main-header {
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgba(219, 216, 216, 0.452);
+  position: relative;
+}
+
+header i.fa-shopping-cart {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.login {
+  font-family: "Cabin", "sans-serif";
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.search {
+  font-family: "Cabin", "sans-serif";
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(207, 205, 205, 0.808);
+  padding: 13px 50px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 250px;
+}
+
+.text-search,
+.sell {
+  position: relative;
+}
+
+header i.fa-search {
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  font-size: 12px;
+}
+
+::placeholder {
+  color: rgb(156, 156, 156);
+  font-size: 14px;
+}
+
+header i.fa-shopping-bag {
+  position: absolute;
+  color: white;
+  font-size: 11px;
+  top: 14px;
+  left: 12px;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-family: "Cabin", "sans-serif";
+  background-image: linear-gradient(
+    to right,
+    rgb(224, 26, 26),
+    rgb(233, 19, 119)
+  );
+  color: white;
+  padding: 13px 10px 13px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+header div:not(login) {
+  margin-left: 30px;
+}
+
+/* =============================
+Main content styles
+===============================*/
+
+/* ======Profile styles====== */
+
+.profile {
+  width: 500px;
+  height: 230px;
+}
+
+.cam {
+  position: relative;
+}
+
+.change {
+  font-family: "Cabin", "sans-serif";
+  font-size: 10px;
+  font-weight: 200;
+  padding: 5px 10px;
+  color: rgb(218, 214, 214);
+  background: linear-gradient(rgba(255, 255, 255, 0.884), transparent);
+  position: absolute;
+  top: 20px;
+  left: 14px;
+}
+
+.cam i.fa-camera {
+  width: 18px;
+}
+
+.edits {
+  display: flex;
+  background: rgb(201, 199, 199);
+  padding: 10px 10px;
+  position: absolute;
+  bottom: 67px;
+  right: 15px;
+}
+
+.follows {
+  background: blue;
+  color: white;
+  font-family: "Cabin", "sans-seif";
+  padding: 10px 13px;
+  font-size: 10px;
+}
+
+.msg {
+  background: rgb(12, 12, 12);
+  color: white;
+  font-family: "Cabin", "sans-seif";
+  padding: 10px 13px;
+  font-size: 10px;
+}
+
+.edits i.fa-envelope {
+  width: 17px;
+  font-size: 10px;
+}
+
+.dets {
+  background: rgb(100, 100, 100);
+  color: white;
+  font-family: "Cabin", "sans-seif";
+  padding: 10px 13px;
+  font-size: 10px;
+}
+
+.cam i.fa-info-circle {
+  width: 14px;
+  font-size: 10px;
+}
+
+.cam p:not(follows) {
+  margin-right: 8px;
+}
+
+/* =====================
+Aside Contents Styles
+========================*/
+
+.side-pics1 .side1,
+.side-pics2 .side2,
+.side-pics3 .side3 {
+  width: 55px;
+}
+
+.side-pics1,
+.side-pics2,
+.side-pics3 {
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 24px;
+}
+
+.aside {
+  margin-left: 27px;
+}
+
+.min-title {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Cabin", "sans-serif";
+}
+
+.info {
+  margin-left: 16px;
+}
+
+.spot {
+  background: purple;
+  color: white;
+  padding: 8px 12px;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.sec {
+  margin-top: 6px;
+  font-size: 10px;
+}
+
+.side-pics2 span {
+  text-decoration: line-through;
+  font-size: 8px;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.price {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 700;
+  font-size: 11px;
+  margin-bottom: 7px;
+  margin-top: 2px;
+}
+
+.mini-info {
+  font-family: "Cabin", "sans-serif";
+  color: rgb(151, 150, 150);
+  font-size: 10px;
+}
+
+/* =====================
+Aside Content Styles
+========================*/
+
+.subtitle {
+  font-family: "Montserrat", "sans-serif";
+  margin-top: -20px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.secondary-content i.fa-check-circle {
+  font-size: 11px;
+  width: 17px;
+  color: rgb(15, 189, 15);
+}
+
+.mini-grp {
+  font-family: "Cabin", "sans-serif";
+  border-bottom: 1px solid rgba(219, 216, 216, 0.452);
+  font-size: 8px;
+  margin-top: 28px;
+  margin-left: 4px;
+  padding-bottom: 8px;
+  width: 730px;
+}
+
+/* =====================
+Secondary Content Styles
+========================*/
+
+.grp-pic1 .img1 {
+  width: 110px;
+  margin-right: 20px;
+}
+
+.img1 {
+  margin-bottom: 6px;
+  border-right: 1px solid rgb(228, 225, 225);
+  padding-right: 20px;
+}
+
+.img2 {
+  margin-bottom: 12px;
+}
+
+.img3 {
+  margin-bottom: 33px;
+}
+
+.img4 {
+  margin-bottom: 70px;
+}
+
+.img5 {
+  margin-bottom: 38.5px;
+}
+
+.sub-info {
+  font-family: "Cabin", "sans-serif";
+  color: rgb(151, 150, 150);
+  font-size: 10px;
+}
+
+.subinfo1 {
+  font-family: "Montserrat", "sans-serif";
+  color: rgb(25, 133, 233);
+  font-style: italic;
+  font-size: 8px;
+}
+
+.grp-pic1 i.fa-check-circle {
+  font-size: 11px;
+  width: 11px;
+  color: rgb(15, 189, 15);
+  font-size: 7px;
+}
+
+.amt {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.sec-pics {
+  display: flex;
+  margin-top: 18px;
+}
